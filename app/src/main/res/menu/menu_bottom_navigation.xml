@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_realtime_data"
+        android:icon="@drawable/ic_server"
+        android:enabled="true"
+        android:title="@string/realtime_data"/>
+    <item android:id="@+id/action_cat_behaviors"
+        android:icon="@drawable/ic_cat"
+        android:enabled="true"
+        android:title="@string/cat_behaviors"/>
+</menu>

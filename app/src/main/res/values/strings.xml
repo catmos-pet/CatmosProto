@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CatmosProto</string>
+    <string name="realtime_data">Real-time Data</string>
+    <string name="cat_behaviors">Cat Behaviors</string>
+</resources>
