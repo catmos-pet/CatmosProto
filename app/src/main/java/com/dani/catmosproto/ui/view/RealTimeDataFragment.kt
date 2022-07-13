@@ -43,7 +43,7 @@ class RealTimeDataFragment : Fragment() {
     }
 
 //    private fun subscribeUi(adapter: ImageListAdapter) {
-//        viewModel.resultList.observe(viewLifecycleOwner) { resultList ->
+//        viewModel.resultList.observe(viewLifecycleOwner) { resultList ->ㅈ
 //            adapter.submitList(resultList)
 //        }
 //    }
