@@ -4,8 +4,8 @@
 
     <data>
         <variable
-            name="vm"
-            type="com.dani.catmosproto.ui.viewmodel.BottomNavigationViewModel" />
+            name="viewModel"
+            type="com.dani.catmosproto.ui.viewmodel.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,7 +19,7 @@
             app:layout_constraintBottom_toTopOf="@+id/bnv_bottom_navi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bnv_bottom_navi"
@@ -30,7 +30,7 @@
             app:itemTextColor="@color/bnv_color_selector"
             app:labelVisibilityMode="unlabeled"
             app:menu="@menu/menu_bottom_navigation"
-            app:onItemSelectedListener="@{(menu) -> vm.setCurrentPage(menu.itemId)}"
+            app:onItemSelectedListener="@{(menu) -> viewModel.setCurrentPage(menu.itemId)}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

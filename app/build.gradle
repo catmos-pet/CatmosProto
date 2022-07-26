@@ -48,6 +48,29 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$rootProject.glideVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycleVersion"
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+
+// Koin main features for Android
+    implementation "io.insert-koin:koin-android:$rootProject.koinVersion"
+    implementation "io.insert-koin:koin-core:$rootProject.koinVersion"
+// Koin Test features
+    testImplementation "io.insert-koin:koin-test:$rootProject.koinVersion"
+
+// Koin main features for Android
+    implementation "io.insert-koin:koin-android:$rootProject.koinVersion"
+// No more koin-android-viewmodel, koin-android-scope, koin-android-fragment
+
+// Java Compatibility
+    implementation "io.insert-koin:koin-android-compat:$rootProject.koinVersion"
+// Jetpack WorkManager
+    implementation "io.insert-koin:koin-androidx-workmanager:$rootProject.koinVersion"
+// Navigation Graph
+    implementation "io.insert-koin:koin-androidx-navigation:$rootProject.koinVersion"
+// Jetpack Compose
+    implementation "io.insert-koin:koin-androidx-compose:$rootProject.koinVersion"
+
+    // MPChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     // Testing dependencies
     testImplementation "junit:junit:$rootProject.junitVersion"
